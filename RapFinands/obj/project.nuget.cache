@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "CzOvmzb5wPr7U7Sm3jnK3Y5mHNYVZZjtJMM7llrv2MUiyDHvTJECc1hR0ke2j366q4i8zjFnrJUUUdaPMEJwcQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Mathias Schaltz\\source\\repos\\fejl-finding-H1\\RapFinands\\RapFinands.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Mathias Schaltz\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
