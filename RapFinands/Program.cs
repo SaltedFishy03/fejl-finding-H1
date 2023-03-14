@@ -12,7 +12,6 @@ namespace Rap_Finands
     **/
     class Program
     {
-        gqyfq,uhfgqwjefhkgju,fkgmqwjhgujwhqh,qfmwey,fuj
         public static string reginummer = "4242";
         public static string datafil = "bank.json"; //Her ligger alt data i
         public static List<Konto> konti;
@@ -55,7 +54,7 @@ namespace Rap_Finands
 
                 Console.Write(">");
                 string valg1 = Console.ReadLine();
-                int valg = int.Parse(valg1 + 1);
+                int valg = int.Parse(valg1);
 
                 switch (valg)
                 {
@@ -156,8 +155,8 @@ namespace Rap_Finands
             Console.WriteLine("Tekst\t\t\t\tBeløb\t\tSaldo");
             foreach (Transaktion t in k.transaktioner)
             {
-                Console.Write(t.tekst + "\t\t\t\t");
-                Console.Write(t.amount + "\t\t");
+                Console.Write(t.tekst + "");
+                Console.Write(t.amount + "");
                 Console.WriteLine(t.saldo);
             }
             Console.WriteLine("================\n");
